@@ -1,4 +1,3 @@
-# loyalty-rewards-causal-analysis
 # Does Loyalty Reward Engagement Actually Drive Spend? A Causal Analysis
 
 ## Overview
@@ -52,6 +51,10 @@ Estimated extra revenue generated: **$905,064**
 ## Methods used
 
 Python, pandas, DoWhy (causal graphs, backdoor adjustment, refutation testing), chi-square testing, time-normalized cohort comparison.
+
+## Data
+
+This project uses the **Starbucks Customer Offer / Rewards dataset**, publicly available on Kaggle. The raw CSV files (`portfolio.csv`, `profile.csv`, `transcript.csv`) are not included in this repo due to file size — they can be downloaded directly from Kaggle and placed in a local `data/` folder to reproduce the analysis.
 
 ## Files
 
